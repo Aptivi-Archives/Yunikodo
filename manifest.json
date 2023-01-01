@@ -1,0 +1,176 @@
+{
+  "sitemap": {
+    "baseUrl": "https://aptivi.github.io/Yunikodo/"
+  },
+  "homepages": [],
+  "source_base_path": "/github/workspace/DocGen",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Yunikodo.Char.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Yunikodo.Char.html",
+          "hash": "eGlWuZNz2WQ5qxlADhZIYIGm17BW6HqQKC+XgRqvrTQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Yunikodo.Namealias.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Yunikodo.Namealias.html",
+          "hash": "eOqRurrtfjuoHtOGJVHEsJX1ZtqL8AOkk8+WInjb3gQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Yunikodo.Repertoire.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Yunikodo.Repertoire.html",
+          "hash": "k2JZmS6iSd/UlEdkQAYv+JkkiuUjZ0y5vMS+LKUxh3c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Yunikodo.Ucd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Yunikodo.Ucd.html",
+          "hash": "/249XZOxXVsARvyX4TYF656caCRDZSWN6Nl1BlMoxoY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Yunikodo.UnicodeQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Yunikodo.UnicodeQuery.html",
+          "hash": "EjuHYsaG9NtJOhOWrwiL5okC/0uGyFQQ3/dvrlbhJms="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Yunikodo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Yunikodo.html",
+          "hash": "moTWxg0OmP2u5EAfFtj/CpjiX0QKlqgUpFZnTp7oUJo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "CW2Nr1DfSD4lf5ITNqL6fY03apYZWuOFUiMAsvmsYEU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "jAJ6RhPShM0RYk6hOA7pOEYCjdDZB5bu80zl7OqZofY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "2XTwDe0qGm6b+SDT6Zj8aFHkwePkb5Sm2nVmMb+EPv8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 1,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 6,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
