@@ -54,9 +54,12 @@ namespace Yunikodo
 
         internal static Char Serialize(int charNum)
         {
-            var serializer = new XmlSerializer(typeof(Ucd), "http://www.unicode.org/ns/2003/ucd/1.0");
-            using var reader = XmlReader.Create(cachedXmlStream);
-            cachedUcd = (Ucd)serializer.Deserialize(reader);
+            if (cachedUcd is null)
+            {
+                var serializer = new XmlSerializer(typeof(Ucd), "http://www.unicode.org/ns/2003/ucd/1.0");
+                using var reader = XmlReader.Create(cachedXmlStream);
+                cachedUcd = (Ucd)serializer.Deserialize(reader);
+            }
 
             return cachedUcd.Repertoire.Char[charNum];
         }
