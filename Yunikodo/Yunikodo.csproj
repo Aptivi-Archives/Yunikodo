@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <AssemblyTitle>Yunikodo</AssemblyTitle>
+    <AssemblyDescription>Unicode info library for .NET</AssemblyDescription>
+    <Description>Unicode info library for .NET</Description>
+    <Version>1.0.0</Version>
+    <Authors>Aptivi</Authors>
+    <DebugType>portable</DebugType>
+    <AssemblyName>Yunikodo</AssemblyName>
+    <PackageId>Yunikodo</PackageId>
+    <PackageTags>unicode;char;characters;character;library</PackageTags>
+    <PackageProjectUrl>https://github.com/Aptivi/Yunikodo</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/Aptivi/Yunikodo</RepositoryUrl>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Company>Aptivi</Company>
+    <Copyright>Copyright (c) 2023 Aptivi</Copyright>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageIcon>OfficialAppIcon-Yunikodo-512.png</PackageIcon>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <PackageVersion>1.0.0</PackageVersion>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="UnicodeData.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>UnicodeData.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="OfficialAppIcon-Yunikodo-512.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="UnicodeData.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UnicodeData.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
