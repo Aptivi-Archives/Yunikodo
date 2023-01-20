@@ -1590,12 +1590,24 @@ references:
   commentId: M:Yunikodo.UnicodeQuery.QueryChar(System.Char)
   fullName: Yunikodo.UnicodeQuery.QueryChar(System.Char)
   nameWithType: UnicodeQuery.QueryChar(Char)
+- uid: Yunikodo.UnicodeQuery.QueryChar(System.Char,Yunikodo.UnicodeQueryType)
+  name: QueryChar(Char, UnicodeQueryType)
+  href: api/Yunikodo.UnicodeQuery.html#Yunikodo_UnicodeQuery_QueryChar_System_Char_Yunikodo_UnicodeQueryType_
+  commentId: M:Yunikodo.UnicodeQuery.QueryChar(System.Char,Yunikodo.UnicodeQueryType)
+  fullName: Yunikodo.UnicodeQuery.QueryChar(System.Char, Yunikodo.UnicodeQueryType)
+  nameWithType: UnicodeQuery.QueryChar(Char, UnicodeQueryType)
 - uid: Yunikodo.UnicodeQuery.QueryChar(System.Int32)
   name: QueryChar(Int32)
   href: api/Yunikodo.UnicodeQuery.html#Yunikodo_UnicodeQuery_QueryChar_System_Int32_
   commentId: M:Yunikodo.UnicodeQuery.QueryChar(System.Int32)
   fullName: Yunikodo.UnicodeQuery.QueryChar(System.Int32)
   nameWithType: UnicodeQuery.QueryChar(Int32)
+- uid: Yunikodo.UnicodeQuery.QueryChar(System.Int32,Yunikodo.UnicodeQueryType)
+  name: QueryChar(Int32, UnicodeQueryType)
+  href: api/Yunikodo.UnicodeQuery.html#Yunikodo_UnicodeQuery_QueryChar_System_Int32_Yunikodo_UnicodeQueryType_
+  commentId: M:Yunikodo.UnicodeQuery.QueryChar(System.Int32,Yunikodo.UnicodeQueryType)
+  fullName: Yunikodo.UnicodeQuery.QueryChar(System.Int32, Yunikodo.UnicodeQueryType)
+  nameWithType: UnicodeQuery.QueryChar(Int32, UnicodeQueryType)
 - uid: Yunikodo.UnicodeQuery.QueryChar*
   name: QueryChar
   href: api/Yunikodo.UnicodeQuery.html#Yunikodo_UnicodeQuery_QueryChar_
@@ -1603,3 +1615,21 @@ references:
   isSpec: "True"
   fullName: Yunikodo.UnicodeQuery.QueryChar
   nameWithType: UnicodeQuery.QueryChar
+- uid: Yunikodo.UnicodeQueryType
+  name: UnicodeQueryType
+  href: api/Yunikodo.UnicodeQueryType.html
+  commentId: T:Yunikodo.UnicodeQueryType
+  fullName: Yunikodo.UnicodeQueryType
+  nameWithType: UnicodeQueryType
+- uid: Yunikodo.UnicodeQueryType.Full
+  name: Full
+  href: api/Yunikodo.UnicodeQueryType.html#Yunikodo_UnicodeQueryType_Full
+  commentId: F:Yunikodo.UnicodeQueryType.Full
+  fullName: Yunikodo.UnicodeQueryType.Full
+  nameWithType: UnicodeQueryType.Full
+- uid: Yunikodo.UnicodeQueryType.Simple
+  name: Simple
+  href: api/Yunikodo.UnicodeQueryType.html#Yunikodo_UnicodeQueryType_Simple
+  commentId: F:Yunikodo.UnicodeQueryType.Simple
+  fullName: Yunikodo.UnicodeQueryType.Simple
+  nameWithType: UnicodeQueryType.Simple

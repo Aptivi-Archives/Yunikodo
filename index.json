@@ -7,7 +7,7 @@
   "api/Yunikodo.html": {
     "href": "api/Yunikodo.html",
     "title": "Namespace Yunikodo | Yunikodo API - Aptivi Internals",
-    "keywords": "Namespace Yunikodo Classes Char Namealias Repertoire Ucd UnicodeQuery Unicode querying tools"
+    "keywords": "Namespace Yunikodo Classes Char Namealias Repertoire Ucd UnicodeQuery Unicode querying tools Enums UnicodeQueryType Unicode character query type"
   },
   "api/Yunikodo.Namealias.html": {
     "href": "api/Yunikodo.Namealias.html",
@@ -27,7 +27,12 @@
   "api/Yunikodo.UnicodeQuery.html": {
     "href": "api/Yunikodo.UnicodeQuery.html",
     "title": "Class UnicodeQuery | Yunikodo API - Aptivi Internals",
-    "keywords": "Class UnicodeQuery Unicode querying tools Inheritance System.Object UnicodeQuery Namespace : Yunikodo Assembly : Yunikodo.dll Syntax public static class UnicodeQuery : object Methods QueryChar(Char) Queries the character Declaration public static Char QueryChar(char character) Parameters Type Name Description System.Char character Character Returns Type Description Char QueryChar(Int32) Queries the character Declaration public static Char QueryChar(int charNum) Parameters Type Name Description System.Int32 charNum Character number Returns Type Description Char"
+    "keywords": "Class UnicodeQuery Unicode querying tools Inheritance System.Object UnicodeQuery Namespace : Yunikodo Assembly : Yunikodo.dll Syntax public static class UnicodeQuery : object Methods QueryChar(Char) Queries the character Declaration public static Char QueryChar(char character) Parameters Type Name Description System.Char character Character Returns Type Description Char QueryChar(Char, UnicodeQueryType) Queries the character Declaration public static Char QueryChar(char character, UnicodeQueryType type) Parameters Type Name Description System.Char character Character UnicodeQueryType type Database type to query Returns Type Description Char QueryChar(Int32) Queries the character Declaration public static Char QueryChar(int charNum) Parameters Type Name Description System.Int32 charNum Character number Returns Type Description Char QueryChar(Int32, UnicodeQueryType) Queries the character Declaration public static Char QueryChar(int charNum, UnicodeQueryType type) Parameters Type Name Description System.Int32 charNum Character number UnicodeQueryType type Database type to query Returns Type Description Char"
+  },
+  "api/Yunikodo.UnicodeQueryType.html": {
+    "href": "api/Yunikodo.UnicodeQueryType.html",
+    "title": "Enum UnicodeQueryType | Yunikodo API - Aptivi Internals",
+    "keywords": "Enum UnicodeQueryType Unicode character query type Namespace : Yunikodo Assembly : Yunikodo.dll Syntax public enum UnicodeQueryType : int Fields Name Description Full All characters Simple Simple Unicode characters without the Unihan characters"
   },
   "index.html": {
     "href": "index.html",

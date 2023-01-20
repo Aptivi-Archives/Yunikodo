@@ -69,7 +69,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Yunikodo.UnicodeQuery.html",
-          "hash": "EjuHYsaG9NtJOhOWrwiL5okC/0uGyFQQ3/dvrlbhJms="
+          "hash": "ofFMZAYUzHn8mPKWHHx46dgM1KybrjcszsXEJUiLQxk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Yunikodo.UnicodeQueryType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Yunikodo.UnicodeQueryType.html",
+          "hash": "U3C0vaROFBvtVaVT+cCrSfz9ISeliggEqwfnrZxLm3E="
         }
       },
       "is_incremental": false,
@@ -81,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Yunikodo.html",
-          "hash": "moTWxg0OmP2u5EAfFtj/CpjiX0QKlqgUpFZnTp7oUJo="
+          "hash": "H6EpsMTzOfDSsIRbK21REvjEc2cqPkdtg4c4mK6ehUg="
         }
       },
       "is_incremental": false,
@@ -93,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "CW2Nr1DfSD4lf5ITNqL6fY03apYZWuOFUiMAsvmsYEU="
+          "hash": "+UcjLrdjdeDKX3+W14a0aMJltGtAiLu7+G7lpQuly64="
         }
       },
       "is_incremental": false,
@@ -144,7 +156,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 6,
+          "total_file_count": 7,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
