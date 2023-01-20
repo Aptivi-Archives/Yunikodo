@@ -23,23 +23,20 @@
  * 
  */
 
-using System;
-
-namespace Yunikodo.QueryApp
+namespace Yunikodo
 {
-    internal class Program
+    /// <summary>
+    /// Unicode character query type
+    /// </summary>
+    public enum UnicodeQueryType
     {
-        static void Main(string[] args)
-        {
-            if (args.Length == 0)
-            {
-                Console.WriteLine("Specify character");
-                Environment.Exit(1);
-            }
-
-            char targetChar = Convert.ToChar(args[0]);
-            var charInstance = UnicodeQuery.QueryChar(targetChar, UnicodeQueryType.Simple);
-            Console.WriteLine(charInstance.Na);
-        }
+        /// <summary>
+        /// Simple Unicode characters without the Unihan characters
+        /// </summary>
+        Simple,
+        /// <summary>
+        /// All characters
+        /// </summary>
+        Full
     }
 }

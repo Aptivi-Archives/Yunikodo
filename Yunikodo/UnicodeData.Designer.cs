@@ -69,5 +69,15 @@ namespace Yunikodo {
                 return ((byte[])(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] ucd_nounihan_flat {
+            get {
+                object obj = ResourceManager.GetObject("ucd_nounihan_flat", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
     }
 }

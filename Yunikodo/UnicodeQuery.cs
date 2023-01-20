@@ -37,15 +37,31 @@ namespace Yunikodo
         /// </summary>
         /// <param name="character">Character</param>
         public static Char QueryChar(char character) =>
-            QueryChar(Convert.ToInt32(character));
+            QueryChar(Convert.ToInt32(character), UnicodeQueryType.Full);
 
         /// <summary>
         /// Queries the character
         /// </summary>
         /// <param name="charNum">Character number</param>
-        public static Char QueryChar(int charNum)
+        public static Char QueryChar(int charNum) =>
+            QueryChar(charNum, UnicodeQueryType.Full);
+
+        /// <summary>
+        /// Queries the character
+        /// </summary>
+        /// <param name="character">Character</param>
+        /// <param name="type">Database type to query</param>
+        public static Char QueryChar(char character, UnicodeQueryType type) =>
+            QueryChar(Convert.ToInt32(character), type);
+
+        /// <summary>
+        /// Queries the character
+        /// </summary>
+        /// <param name="charNum">Character number</param>
+        /// <param name="type">Database type to query</param>
+        public static Char QueryChar(int charNum, UnicodeQueryType type)
         {
-            UnicodeQueryHandler.UnpackUnicodeDataToStream();
+            UnicodeQueryHandler.UnpackUnicodeDataToStream(type);
             return UnicodeQueryHandler.Serialize(charNum);
         }
     }

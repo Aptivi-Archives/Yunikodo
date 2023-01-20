@@ -24,7 +24,6 @@
  */
 
 using System;
-using System.Collections.Generic;
 using System.IO;
 using System.IO.Compression;
 using System.Text;
@@ -38,17 +37,32 @@ namespace Yunikodo
         static Stream cachedXmlStream = null;
         static Ucd cachedUcd = null;
 
-        internal static void UnpackUnicodeDataToStream()
+        internal static void UnpackUnicodeDataToStream(UnicodeQueryType type)
         {
             // If we've cached, just bail
             if (cachedXmlStream == null)
             {
+                // Select XML file based on type
+                var unicodeData = Array.Empty<byte>();
+                var xmlFile = "";
+                switch (type)
+                {
+                    case UnicodeQueryType.Simple:
+                        unicodeData = UnicodeData.ucd_nounihan_flat;
+                        xmlFile = "ucd.nounihan.flat.xml";
+                        break;
+                    case UnicodeQueryType.Full:
+                        unicodeData = UnicodeData.ucd_all_flat;
+                        xmlFile = "ucd.all.flat.xml";
+                        break;
+                }
+
                 // Unpack the ZIP to stream
-                var archiveByte = new MemoryStream(UnicodeData.ucd_all_flat);
+                var archiveByte = new MemoryStream(unicodeData);
                 var archive = new ZipArchive(archiveByte, ZipArchiveMode.Read);
 
                 // Open the XML to stream
-                cachedXmlStream = archive.GetEntry("ucd.all.flat.xml").Open();
+                cachedXmlStream = archive.GetEntry(xmlFile).Open();
             }
         }
 
