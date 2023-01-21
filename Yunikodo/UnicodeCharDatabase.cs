@@ -23,6 +23,7 @@
  * 
  */
 
+using System;
 using System.Collections.Generic;
 using System.Xml.Serialization;
 
@@ -726,6 +727,158 @@ namespace Yunikodo
         /// </summary>
         [XmlAttribute(AttributeName = "ExtPict")]
         public string ExtPict { get; set; }
+
+        // Unihan info
+
+        /// <summary>
+        /// Compatibility variant
+        /// </summary>
+        [XmlAttribute(AttributeName = "kCompatibilityVariant")]
+        public string KCompatibilityVariant { get; set; }
+
+        /// <summary>
+        /// RS Unicode
+        /// </summary>
+        [XmlAttribute(AttributeName = "kRSUnicode")]
+        public string KRSUnicode { get; set; }
+
+        /// <summary>
+        /// IRD G Source
+        /// </summary>
+        [XmlAttribute(AttributeName = "kIRG_GSource")]
+        public string KIRGGSource { get; set; }
+
+        /// <summary>
+        /// IRD T Source
+        /// </summary>
+        [XmlAttribute(AttributeName = "kIRG_TSource")]
+        public string KIRGTSource { get; set; }
+
+        /// <summary>
+        /// IRD J Source
+        /// </summary>
+        [XmlAttribute(AttributeName = "kIRG_JSource")]
+        public string KIRGJSource { get; set; }
+
+        /// <summary>
+        /// IRD K Source
+        /// </summary>
+        [XmlAttribute(AttributeName = "kIRG_KSource")]
+        public string KIRGKSource { get; set; }
+
+        /// <summary>
+        /// IRD KP Source
+        /// </summary>
+        [XmlAttribute(AttributeName = "kIRG_KPSource")]
+        public string KIRGKPSource { get; set; }
+
+        /// <summary>
+        /// IRD V Source
+        /// </summary>
+        [XmlAttribute(AttributeName = "kIRG_VSource")]
+        public string KIRGVSource { get; set; }
+
+        /// <summary>
+        /// IRD H Source
+        /// </summary>
+        [XmlAttribute(AttributeName = "kIRG_HSource")]
+        public string KIRGHSource { get; set; }
+
+        /// <summary>
+        /// IRD U Source
+        /// </summary>
+        [XmlAttribute(AttributeName = "kIRG_USource")]
+        public string KIRGUSource { get; set; }
+
+        /// <summary>
+        /// IRD M Source
+        /// </summary>
+        [XmlAttribute(AttributeName = "kIRG_MSource")]
+        public string KIRGMSource { get; set; }
+
+        /// <summary>
+        /// IRD UK Source
+        /// </summary>
+        [XmlAttribute(AttributeName = "kIRG_UKSource")]
+        public string KIRGUKSource { get; set; }
+
+        /// <summary>
+        /// IRD S Source
+        /// </summary>
+        [XmlAttribute(AttributeName = "kIRG_SSource")]
+        public string KIRGSSource { get; set; }
+
+        /// <summary>
+        /// KPS1
+        /// </summary>
+        [XmlAttribute(AttributeName = "kKPS1")]
+        public string KKPS1 { get; set; }
+
+        /// <summary>
+        /// Definition
+        /// </summary>
+        [XmlAttribute(AttributeName = "kDefinition")]
+        public string KDefinition { get; set; }
+
+        /// <summary>
+        /// Han Yu
+        /// </summary>
+        [XmlAttribute(AttributeName = "kHanYu")]
+        public string KHanYu { get; set; }
+
+        /// <summary>
+        /// Mandarin
+        /// </summary>
+        [XmlAttribute(AttributeName = "kMandarin")]
+        public string KMandarin { get; set; }
+
+        /// <summary>
+        /// SBGY
+        /// </summary>
+        [XmlAttribute(AttributeName = "kSBGY")]
+        public string KSBGY { get; set; }
+
+        /// <summary>
+        /// Cangjie
+        /// </summary>
+        [XmlAttribute(AttributeName = "kCangjie")]
+        public string KCangjie { get; set; }
+
+        /// <summary>
+        /// Hanyu Pinyin
+        /// </summary>
+        [XmlAttribute(AttributeName = "kHanyuPinyin")]
+        public string KHanyuPinyin { get; set; }
+
+        /// <summary>
+        /// IRG Hanyu Da Zidian
+        /// </summary>
+        [XmlAttribute(AttributeName = "kIRGHanyuDaZidian")]
+        public double KIRGHanyuDaZidian { get; set; }
+
+        /// <summary>
+        /// IRG Kang Xi
+        /// </summary>
+        [XmlAttribute(AttributeName = "kIRGKangXi")]
+        public double KIRGKangXi { get; set; }
+
+        /// <summary>
+        /// Total strokes
+        /// </summary>
+        [XmlAttribute(AttributeName = "kTotalStrokes")]
+        public string KTotalStrokes { get; set; }
+
+        /// <summary>
+        /// Cantonese
+        /// </summary>
+        [XmlAttribute(AttributeName = "kCantonese")]
+        public string KCantonese { get; set; }
+
+        /// <summary>
+        /// Phonetic
+        /// </summary>
+        [XmlAttribute(AttributeName = "kPhonetic")]
+        public string KPhonetic { get; set; }
     }
 
     /// <summary>
