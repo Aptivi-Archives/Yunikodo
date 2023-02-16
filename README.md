@@ -1,37 +1,67 @@
+
+<div align = center>
+
+<br>
+<br>
+    
+<img
+  src = 'https://cdn.jsdelivr.net/gh/Aptivi/Yunikodo@main/Yunikodo/OfficialAppIcon-Yunikodo-512.png'
+  width = 256
+  align = center
+/>
+
+<br>
+
 # Yunikodo
+    
+*A library that hosts all Unicode character information, taken from Unicode 15.0.0 UCD.*
 
-Yunikodo is a library that hosts all Unicode character information, taken from [Unicode 15.0.0 UCD](https://www.unicode.org/Public/UCD/latest/ucdxml/ucdxml.readme.txt).
+<br>
+<br>
 
-WARNING: This library is demanding because it loads an XML file with 100000 Unicode characters, so you need at least 8 GB RAM to 16 GB RAM to be able to run applications that use Yunikodo.
+[![Badge Main]][Main]   
+[![Badge Main Linux]][Main Linux]
 
-## Credits
+[![Badge Latest]][Latest]   
+[![Badge NuGet]][NuGet]
 
-| Credited | For 
-|:---------|:----
-| Unicode.org | [Unicode 15.0.0 UCD](https://www.unicode.org/Public/UCD/latest/ucdxml/ucdxml.readme.txt)
+![Badge Size]   
+[![Badge Downloads]][Releases]
 
-## License
+[![Button Manual]][Manual]   
+[![Button Libraries]][Libraries]
 
-```
-MIT License
+</div>
+    
+<br>
 
-Copyright (c) 2023 Aptivi
+</div>
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+<!----------------------------------------------------------------------------->
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+[Releases]: https://github.com/Aptivi/Yunikodo/releases
+[Latest]: https://github.com/Aptivi/Yunikodo/releases/latest
+[NuGet]: https://www.nuget.org/packages/Yunikodo/
+
+[Main]: https://github.com/Aptivi/Yunikodo/actions/workflows/build-win.yml
+[Main Linux]: https://github.com/Aptivi/Yunikodo/actions/workflows/build-linux.yml
+
+[Libraries]: https://aptivi.gitbook.io/yunikodo-manual/project-dependencies
+[Manual]: https://aptivi.gitbook.io/yunikodo-manual/
+
+<!----------------------------------[ Badges ]--------------------------------->
+
+[Badge Downloads]: https://img.shields.io/github/downloads/Aptivi/Yunikodo/total?color=217346&label=Downloads&style=for-the-badge&logoColor=white&logo=DocuSign&labelColor=2d9d5f
+[Badge Latest]: https://img.shields.io/github/v/release/Aptivi/Yunikodo?color=212121&include_prereleases&label=github&style=for-the-badge&logoColor=white&logo=AzureArtifacts&labelColor=303030
+[Badge NuGet]: https://img.shields.io/nuget/vpre/Yunikodo?color=012f52&style=for-the-badge&logoColor=white&logo=NuGet&labelColor=004880
+[Badge Size]: https://img.shields.io/github/repo-size/Aptivi/Yunikodo?color=bb4a28&label=size&logoColor=white&style=for-the-badge&logo=GoogleAnalytics&labelColor=E85C33
+
+[Badge Main]: https://github.com/Aptivi/Yunikodo/actions/workflows/build-win.yml/badge.svg
+[Badge Main Linux]: https://github.com/Aptivi/Yunikodo/actions/workflows/build-linux.yml/badge.svg
+
+
+<!---------------------------------[ Buttons ]--------------------------------->
+
+[Button Libraries]: https://img.shields.io/badge/Libraries-EA8220?style=for-the-badge&logoColor=white&logo=AzureArtifacts
+[Button Manual]: https://img.shields.io/badge/Docs-blueviolet?style=for-the-badge&logoColor=white&logo=GitBook
