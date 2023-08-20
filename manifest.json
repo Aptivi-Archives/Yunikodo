@@ -12,19 +12,16 @@
         "resource": {
           "relative_path": "index.json"
         }
-      },
-      "is_incremental": false
+      }
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/Yunikodo.Char.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Yunikodo.Char.html",
-          "hash": "2SmjrLY6Vn0jJi+79KSOLhd5R46fERMG4GE1C2kjhiE="
+          "relative_path": "api/Yunikodo.Char.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -32,11 +29,9 @@
       "source_relative_path": "api/Yunikodo.Namealias.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Yunikodo.Namealias.html",
-          "hash": "YxPMbnZOtLTWABEczgNdgP1OJ/nKIWJKcsqDeHXGp1Y="
+          "relative_path": "api/Yunikodo.Namealias.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -44,11 +39,9 @@
       "source_relative_path": "api/Yunikodo.Repertoire.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Yunikodo.Repertoire.html",
-          "hash": "gjrIMwvG8gATgbiAuUTwgR5V9JoRM5iyxJer5b7Tusc="
+          "relative_path": "api/Yunikodo.Repertoire.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -56,11 +49,9 @@
       "source_relative_path": "api/Yunikodo.Ucd.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Yunikodo.Ucd.html",
-          "hash": "kcuGm55FCuqh7whXASBMnOd09Px1pbfC2OZqb3cjd8U="
+          "relative_path": "api/Yunikodo.Ucd.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -68,11 +59,9 @@
       "source_relative_path": "api/Yunikodo.UnicodeQuery.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Yunikodo.UnicodeQuery.html",
-          "hash": "ofFMZAYUzHn8mPKWHHx46dgM1KybrjcszsXEJUiLQxk="
+          "relative_path": "api/Yunikodo.UnicodeQuery.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -80,11 +69,9 @@
       "source_relative_path": "api/Yunikodo.UnicodeQueryType.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Yunikodo.UnicodeQueryType.html",
-          "hash": "U3C0vaROFBvtVaVT+cCrSfz9ISeliggEqwfnrZxLm3E="
+          "relative_path": "api/Yunikodo.UnicodeQueryType.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -92,11 +79,9 @@
       "source_relative_path": "api/Yunikodo.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Yunikodo.html",
-          "hash": "yQp1HnxKXJzg6Nlxn7rE5WhEDuA04DvroKxGlsl9Eco="
+          "relative_path": "api/Yunikodo.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -104,11 +89,9 @@
       "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "+UcjLrdjdeDKX3+W14a0aMJltGtAiLu7+G7lpQuly64="
+          "relative_path": "api/toc.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -116,11 +99,9 @@
       "source_relative_path": "index.md",
       "output": {
         ".html": {
-          "relative_path": "index.html",
-          "hash": "jAJ6RhPShM0RYk6hOA7pOEYCjdDZB5bu80zl7OqZofY="
+          "relative_path": "index.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -128,55 +109,10 @@
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
-          "relative_path": "toc.html",
-          "hash": "2XTwDe0qGm6b+SDT6Zj8aFHkwePkb5Sm2nVmMb+EPv8="
+          "relative_path": "toc.html"
         }
       },
-      "is_incremental": false,
       "version": ""
-    }
-  ],
-  "incremental_info": [
-    {
-      "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
-        "incrementalPhase": "build",
-        "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "NoAvailableBuildCache"
-      },
-      "processors": {
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 1,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 7,
-          "skipped_file_count": 0
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        }
-      }
-    },
-    {
-      "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
-        "incrementalPhase": "postProcessing",
-        "total_file_count": 0,
-        "skipped_file_count": 0
-      },
-      "processors": {}
     }
   ],
   "version_info": {},

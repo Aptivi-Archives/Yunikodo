@@ -13,19 +13,6 @@ references:
   commentId: T:Yunikodo.Char
   fullName: Yunikodo.Char
   nameWithType: Char
-- uid: Yunikodo.Char.Age
-  name: Age
-  href: api/Yunikodo.Char.html#Yunikodo_Char_Age
-  commentId: P:Yunikodo.Char.Age
-  fullName: Yunikodo.Char.Age
-  nameWithType: Char.Age
-- uid: Yunikodo.Char.Age*
-  name: Age
-  href: api/Yunikodo.Char.html#Yunikodo_Char_Age_
-  commentId: Overload:Yunikodo.Char.Age
-  isSpec: "True"
-  fullName: Yunikodo.Char.Age
-  nameWithType: Char.Age
 - uid: Yunikodo.Char.AHex
   name: AHex
   href: api/Yunikodo.Char.html#Yunikodo_Char_AHex
@@ -39,6 +26,19 @@ references:
   isSpec: "True"
   fullName: Yunikodo.Char.AHex
   nameWithType: Char.AHex
+- uid: Yunikodo.Char.Age
+  name: Age
+  href: api/Yunikodo.Char.html#Yunikodo_Char_Age
+  commentId: P:Yunikodo.Char.Age
+  fullName: Yunikodo.Char.Age
+  nameWithType: Char.Age
+- uid: Yunikodo.Char.Age*
+  name: Age
+  href: api/Yunikodo.Char.html#Yunikodo_Char_Age_
+  commentId: Overload:Yunikodo.Char.Age
+  isSpec: "True"
+  fullName: Yunikodo.Char.Age
+  nameWithType: Char.Age
 - uid: Yunikodo.Char.Alpha
   name: Alpha
   href: api/Yunikodo.Char.html#Yunikodo_Char_Alpha
@@ -143,32 +143,6 @@ references:
   isSpec: "True"
   fullName: Yunikodo.Char.Bpt
   nameWithType: Char.Bpt
-- uid: Yunikodo.Char.Cased
-  name: Cased
-  href: api/Yunikodo.Char.html#Yunikodo_Char_Cased
-  commentId: P:Yunikodo.Char.Cased
-  fullName: Yunikodo.Char.Cased
-  nameWithType: Char.Cased
-- uid: Yunikodo.Char.Cased*
-  name: Cased
-  href: api/Yunikodo.Char.html#Yunikodo_Char_Cased_
-  commentId: Overload:Yunikodo.Char.Cased
-  isSpec: "True"
-  fullName: Yunikodo.Char.Cased
-  nameWithType: Char.Cased
-- uid: Yunikodo.Char.Ccc
-  name: Ccc
-  href: api/Yunikodo.Char.html#Yunikodo_Char_Ccc
-  commentId: P:Yunikodo.Char.Ccc
-  fullName: Yunikodo.Char.Ccc
-  nameWithType: Char.Ccc
-- uid: Yunikodo.Char.Ccc*
-  name: Ccc
-  href: api/Yunikodo.Char.html#Yunikodo_Char_Ccc_
-  commentId: Overload:Yunikodo.Char.Ccc
-  isSpec: "True"
-  fullName: Yunikodo.Char.Ccc
-  nameWithType: Char.Ccc
 - uid: Yunikodo.Char.CE
   name: CE
   href: api/Yunikodo.Char.html#Yunikodo_Char_CE
@@ -182,19 +156,6 @@ references:
   isSpec: "True"
   fullName: Yunikodo.Char.CE
   nameWithType: Char.CE
-- uid: Yunikodo.Char.Cf
-  name: Cf
-  href: api/Yunikodo.Char.html#Yunikodo_Char_Cf
-  commentId: P:Yunikodo.Char.Cf
-  fullName: Yunikodo.Char.Cf
-  nameWithType: Char.Cf
-- uid: Yunikodo.Char.Cf*
-  name: Cf
-  href: api/Yunikodo.Char.html#Yunikodo_Char_Cf_
-  commentId: Overload:Yunikodo.Char.Cf
-  isSpec: "True"
-  fullName: Yunikodo.Char.Cf
-  nameWithType: Char.Cf
 - uid: Yunikodo.Char.CI
   name: CI
   href: api/Yunikodo.Char.html#Yunikodo_Char_CI
@@ -208,32 +169,6 @@ references:
   isSpec: "True"
   fullName: Yunikodo.Char.CI
   nameWithType: Char.CI
-- uid: Yunikodo.Char.CompEx
-  name: CompEx
-  href: api/Yunikodo.Char.html#Yunikodo_Char_CompEx
-  commentId: P:Yunikodo.Char.CompEx
-  fullName: Yunikodo.Char.CompEx
-  nameWithType: Char.CompEx
-- uid: Yunikodo.Char.CompEx*
-  name: CompEx
-  href: api/Yunikodo.Char.html#Yunikodo_Char_CompEx_
-  commentId: Overload:Yunikodo.Char.CompEx
-  isSpec: "True"
-  fullName: Yunikodo.Char.CompEx
-  nameWithType: Char.CompEx
-- uid: Yunikodo.Char.Cp
-  name: Cp
-  href: api/Yunikodo.Char.html#Yunikodo_Char_Cp
-  commentId: P:Yunikodo.Char.Cp
-  fullName: Yunikodo.Char.Cp
-  nameWithType: Char.Cp
-- uid: Yunikodo.Char.Cp*
-  name: Cp
-  href: api/Yunikodo.Char.html#Yunikodo_Char_Cp_
-  commentId: Overload:Yunikodo.Char.Cp
-  isSpec: "True"
-  fullName: Yunikodo.Char.Cp
-  nameWithType: Char.Cp
 - uid: Yunikodo.Char.CWCF
   name: CWCF
   href: api/Yunikodo.Char.html#Yunikodo_Char_CWCF
@@ -312,6 +247,84 @@ references:
   isSpec: "True"
   fullName: Yunikodo.Char.CWU
   nameWithType: Char.CWU
+- uid: Yunikodo.Char.Cased
+  name: Cased
+  href: api/Yunikodo.Char.html#Yunikodo_Char_Cased
+  commentId: P:Yunikodo.Char.Cased
+  fullName: Yunikodo.Char.Cased
+  nameWithType: Char.Cased
+- uid: Yunikodo.Char.Cased*
+  name: Cased
+  href: api/Yunikodo.Char.html#Yunikodo_Char_Cased_
+  commentId: Overload:Yunikodo.Char.Cased
+  isSpec: "True"
+  fullName: Yunikodo.Char.Cased
+  nameWithType: Char.Cased
+- uid: Yunikodo.Char.Ccc
+  name: Ccc
+  href: api/Yunikodo.Char.html#Yunikodo_Char_Ccc
+  commentId: P:Yunikodo.Char.Ccc
+  fullName: Yunikodo.Char.Ccc
+  nameWithType: Char.Ccc
+- uid: Yunikodo.Char.Ccc*
+  name: Ccc
+  href: api/Yunikodo.Char.html#Yunikodo_Char_Ccc_
+  commentId: Overload:Yunikodo.Char.Ccc
+  isSpec: "True"
+  fullName: Yunikodo.Char.Ccc
+  nameWithType: Char.Ccc
+- uid: Yunikodo.Char.Cf
+  name: Cf
+  href: api/Yunikodo.Char.html#Yunikodo_Char_Cf
+  commentId: P:Yunikodo.Char.Cf
+  fullName: Yunikodo.Char.Cf
+  nameWithType: Char.Cf
+- uid: Yunikodo.Char.Cf*
+  name: Cf
+  href: api/Yunikodo.Char.html#Yunikodo_Char_Cf_
+  commentId: Overload:Yunikodo.Char.Cf
+  isSpec: "True"
+  fullName: Yunikodo.Char.Cf
+  nameWithType: Char.Cf
+- uid: Yunikodo.Char.CompEx
+  name: CompEx
+  href: api/Yunikodo.Char.html#Yunikodo_Char_CompEx
+  commentId: P:Yunikodo.Char.CompEx
+  fullName: Yunikodo.Char.CompEx
+  nameWithType: Char.CompEx
+- uid: Yunikodo.Char.CompEx*
+  name: CompEx
+  href: api/Yunikodo.Char.html#Yunikodo_Char_CompEx_
+  commentId: Overload:Yunikodo.Char.CompEx
+  isSpec: "True"
+  fullName: Yunikodo.Char.CompEx
+  nameWithType: Char.CompEx
+- uid: Yunikodo.Char.Cp
+  name: Cp
+  href: api/Yunikodo.Char.html#Yunikodo_Char_Cp
+  commentId: P:Yunikodo.Char.Cp
+  fullName: Yunikodo.Char.Cp
+  nameWithType: Char.Cp
+- uid: Yunikodo.Char.Cp*
+  name: Cp
+  href: api/Yunikodo.Char.html#Yunikodo_Char_Cp_
+  commentId: Overload:Yunikodo.Char.Cp
+  isSpec: "True"
+  fullName: Yunikodo.Char.Cp
+  nameWithType: Char.Cp
+- uid: Yunikodo.Char.DI
+  name: DI
+  href: api/Yunikodo.Char.html#Yunikodo_Char_DI
+  commentId: P:Yunikodo.Char.DI
+  fullName: Yunikodo.Char.DI
+  nameWithType: Char.DI
+- uid: Yunikodo.Char.DI*
+  name: DI
+  href: api/Yunikodo.Char.html#Yunikodo_Char_DI_
+  commentId: Overload:Yunikodo.Char.DI
+  isSpec: "True"
+  fullName: Yunikodo.Char.DI
+  nameWithType: Char.DI
 - uid: Yunikodo.Char.Dash
   name: Dash
   href: api/Yunikodo.Char.html#Yunikodo_Char_Dash
@@ -338,19 +351,6 @@ references:
   isSpec: "True"
   fullName: Yunikodo.Char.Dep
   nameWithType: Char.Dep
-- uid: Yunikodo.Char.DI
-  name: DI
-  href: api/Yunikodo.Char.html#Yunikodo_Char_DI
-  commentId: P:Yunikodo.Char.DI
-  fullName: Yunikodo.Char.DI
-  nameWithType: Char.DI
-- uid: Yunikodo.Char.DI*
-  name: DI
-  href: api/Yunikodo.Char.html#Yunikodo_Char_DI_
-  commentId: Overload:Yunikodo.Char.DI
-  isSpec: "True"
-  fullName: Yunikodo.Char.DI
-  nameWithType: Char.DI
 - uid: Yunikodo.Char.Dia
   name: Dia
   href: api/Yunikodo.Char.html#Yunikodo_Char_Dia
@@ -390,19 +390,6 @@ references:
   isSpec: "True"
   fullName: Yunikodo.Char.Dt
   nameWithType: Char.Dt
-- uid: Yunikodo.Char.Ea
-  name: Ea
-  href: api/Yunikodo.Char.html#Yunikodo_Char_Ea
-  commentId: P:Yunikodo.Char.Ea
-  fullName: Yunikodo.Char.Ea
-  nameWithType: Char.Ea
-- uid: Yunikodo.Char.Ea*
-  name: Ea
-  href: api/Yunikodo.Char.html#Yunikodo_Char_Ea_
-  commentId: Overload:Yunikodo.Char.Ea
-  isSpec: "True"
-  fullName: Yunikodo.Char.Ea
-  nameWithType: Char.Ea
 - uid: Yunikodo.Char.EBase
   name: EBase
   href: api/Yunikodo.Char.html#Yunikodo_Char_EBase
@@ -442,19 +429,6 @@ references:
   isSpec: "True"
   fullName: Yunikodo.Char.EMod
   nameWithType: Char.EMod
-- uid: Yunikodo.Char.Emoji
-  name: Emoji
-  href: api/Yunikodo.Char.html#Yunikodo_Char_Emoji
-  commentId: P:Yunikodo.Char.Emoji
-  fullName: Yunikodo.Char.Emoji
-  nameWithType: Char.Emoji
-- uid: Yunikodo.Char.Emoji*
-  name: Emoji
-  href: api/Yunikodo.Char.html#Yunikodo_Char_Emoji_
-  commentId: Overload:Yunikodo.Char.Emoji
-  isSpec: "True"
-  fullName: Yunikodo.Char.Emoji
-  nameWithType: Char.Emoji
 - uid: Yunikodo.Char.EPres
   name: EPres
   href: api/Yunikodo.Char.html#Yunikodo_Char_EPres
@@ -468,6 +442,32 @@ references:
   isSpec: "True"
   fullName: Yunikodo.Char.EPres
   nameWithType: Char.EPres
+- uid: Yunikodo.Char.Ea
+  name: Ea
+  href: api/Yunikodo.Char.html#Yunikodo_Char_Ea
+  commentId: P:Yunikodo.Char.Ea
+  fullName: Yunikodo.Char.Ea
+  nameWithType: Char.Ea
+- uid: Yunikodo.Char.Ea*
+  name: Ea
+  href: api/Yunikodo.Char.html#Yunikodo_Char_Ea_
+  commentId: Overload:Yunikodo.Char.Ea
+  isSpec: "True"
+  fullName: Yunikodo.Char.Ea
+  nameWithType: Char.Ea
+- uid: Yunikodo.Char.Emoji
+  name: Emoji
+  href: api/Yunikodo.Char.html#Yunikodo_Char_Emoji
+  commentId: P:Yunikodo.Char.Emoji
+  fullName: Yunikodo.Char.Emoji
+  nameWithType: Char.Emoji
+- uid: Yunikodo.Char.Emoji*
+  name: Emoji
+  href: api/Yunikodo.Char.html#Yunikodo_Char_Emoji_
+  commentId: Overload:Yunikodo.Char.Emoji
+  isSpec: "True"
+  fullName: Yunikodo.Char.Emoji
+  nameWithType: Char.Emoji
 - uid: Yunikodo.Char.Ext
   name: Ext
   href: api/Yunikodo.Char.html#Yunikodo_Char_Ext
@@ -507,19 +507,6 @@ references:
   isSpec: "True"
   fullName: Yunikodo.Char.FCNFKC
   nameWithType: Char.FCNFKC
-- uid: Yunikodo.Char.Gc
-  name: Gc
-  href: api/Yunikodo.Char.html#Yunikodo_Char_Gc
-  commentId: P:Yunikodo.Char.Gc
-  fullName: Yunikodo.Char.Gc
-  nameWithType: Char.Gc
-- uid: Yunikodo.Char.Gc*
-  name: Gc
-  href: api/Yunikodo.Char.html#Yunikodo_Char_Gc_
-  commentId: Overload:Yunikodo.Char.Gc
-  isSpec: "True"
-  fullName: Yunikodo.Char.Gc
-  nameWithType: Char.Gc
 - uid: Yunikodo.Char.GCB
   name: GCB
   href: api/Yunikodo.Char.html#Yunikodo_Char_GCB
@@ -533,6 +520,19 @@ references:
   isSpec: "True"
   fullName: Yunikodo.Char.GCB
   nameWithType: Char.GCB
+- uid: Yunikodo.Char.Gc
+  name: Gc
+  href: api/Yunikodo.Char.html#Yunikodo_Char_Gc
+  commentId: P:Yunikodo.Char.Gc
+  fullName: Yunikodo.Char.Gc
+  nameWithType: Char.Gc
+- uid: Yunikodo.Char.Gc*
+  name: Gc
+  href: api/Yunikodo.Char.html#Yunikodo_Char_Gc_
+  commentId: Overload:Yunikodo.Char.Gc
+  isSpec: "True"
+  fullName: Yunikodo.Char.Gc
+  nameWithType: Char.Gc
 - uid: Yunikodo.Char.GrBase
   name: GrBase
   href: api/Yunikodo.Char.html#Yunikodo_Char_GrBase
@@ -624,19 +624,6 @@ references:
   isSpec: "True"
   fullName: Yunikodo.Char.IDC
   nameWithType: Char.IDC
-- uid: Yunikodo.Char.Ideo
-  name: Ideo
-  href: api/Yunikodo.Char.html#Yunikodo_Char_Ideo
-  commentId: P:Yunikodo.Char.Ideo
-  fullName: Yunikodo.Char.Ideo
-  nameWithType: Char.Ideo
-- uid: Yunikodo.Char.Ideo*
-  name: Ideo
-  href: api/Yunikodo.Char.html#Yunikodo_Char_Ideo_
-  commentId: Overload:Yunikodo.Char.Ideo
-  isSpec: "True"
-  fullName: Yunikodo.Char.Ideo
-  nameWithType: Char.Ideo
 - uid: Yunikodo.Char.IDS
   name: IDS
   href: api/Yunikodo.Char.html#Yunikodo_Char_IDS
@@ -676,6 +663,19 @@ references:
   isSpec: "True"
   fullName: Yunikodo.Char.IDST
   nameWithType: Char.IDST
+- uid: Yunikodo.Char.Ideo
+  name: Ideo
+  href: api/Yunikodo.Char.html#Yunikodo_Char_Ideo
+  commentId: P:Yunikodo.Char.Ideo
+  fullName: Yunikodo.Char.Ideo
+  nameWithType: Char.Ideo
+- uid: Yunikodo.Char.Ideo*
+  name: Ideo
+  href: api/Yunikodo.Char.html#Yunikodo_Char_Ideo_
+  commentId: Overload:Yunikodo.Char.Ideo
+  isSpec: "True"
+  fullName: Yunikodo.Char.Ideo
+  nameWithType: Char.Ideo
 - uid: Yunikodo.Char.InPC
   name: InPC
   href: api/Yunikodo.Char.html#Yunikodo_Char_InPC
@@ -858,19 +858,6 @@ references:
   isSpec: "True"
   fullName: Yunikodo.Char.KIRGGSource
   nameWithType: Char.KIRGGSource
-- uid: Yunikodo.Char.KIRGHanyuDaZidian
-  name: KIRGHanyuDaZidian
-  href: api/Yunikodo.Char.html#Yunikodo_Char_KIRGHanyuDaZidian
-  commentId: P:Yunikodo.Char.KIRGHanyuDaZidian
-  fullName: Yunikodo.Char.KIRGHanyuDaZidian
-  nameWithType: Char.KIRGHanyuDaZidian
-- uid: Yunikodo.Char.KIRGHanyuDaZidian*
-  name: KIRGHanyuDaZidian
-  href: api/Yunikodo.Char.html#Yunikodo_Char_KIRGHanyuDaZidian_
-  commentId: Overload:Yunikodo.Char.KIRGHanyuDaZidian
-  isSpec: "True"
-  fullName: Yunikodo.Char.KIRGHanyuDaZidian
-  nameWithType: Char.KIRGHanyuDaZidian
 - uid: Yunikodo.Char.KIRGHSource
   name: KIRGHSource
   href: api/Yunikodo.Char.html#Yunikodo_Char_KIRGHSource
@@ -884,6 +871,19 @@ references:
   isSpec: "True"
   fullName: Yunikodo.Char.KIRGHSource
   nameWithType: Char.KIRGHSource
+- uid: Yunikodo.Char.KIRGHanyuDaZidian
+  name: KIRGHanyuDaZidian
+  href: api/Yunikodo.Char.html#Yunikodo_Char_KIRGHanyuDaZidian
+  commentId: P:Yunikodo.Char.KIRGHanyuDaZidian
+  fullName: Yunikodo.Char.KIRGHanyuDaZidian
+  nameWithType: Char.KIRGHanyuDaZidian
+- uid: Yunikodo.Char.KIRGHanyuDaZidian*
+  name: KIRGHanyuDaZidian
+  href: api/Yunikodo.Char.html#Yunikodo_Char_KIRGHanyuDaZidian_
+  commentId: Overload:Yunikodo.Char.KIRGHanyuDaZidian
+  isSpec: "True"
+  fullName: Yunikodo.Char.KIRGHanyuDaZidian
+  nameWithType: Char.KIRGHanyuDaZidian
 - uid: Yunikodo.Char.KIRGJSource
   name: KIRGJSource
   href: api/Yunikodo.Char.html#Yunikodo_Char_KIRGJSource
@@ -897,19 +897,6 @@ references:
   isSpec: "True"
   fullName: Yunikodo.Char.KIRGJSource
   nameWithType: Char.KIRGJSource
-- uid: Yunikodo.Char.KIRGKangXi
-  name: KIRGKangXi
-  href: api/Yunikodo.Char.html#Yunikodo_Char_KIRGKangXi
-  commentId: P:Yunikodo.Char.KIRGKangXi
-  fullName: Yunikodo.Char.KIRGKangXi
-  nameWithType: Char.KIRGKangXi
-- uid: Yunikodo.Char.KIRGKangXi*
-  name: KIRGKangXi
-  href: api/Yunikodo.Char.html#Yunikodo_Char_KIRGKangXi_
-  commentId: Overload:Yunikodo.Char.KIRGKangXi
-  isSpec: "True"
-  fullName: Yunikodo.Char.KIRGKangXi
-  nameWithType: Char.KIRGKangXi
 - uid: Yunikodo.Char.KIRGKPSource
   name: KIRGKPSource
   href: api/Yunikodo.Char.html#Yunikodo_Char_KIRGKPSource
@@ -936,6 +923,19 @@ references:
   isSpec: "True"
   fullName: Yunikodo.Char.KIRGKSource
   nameWithType: Char.KIRGKSource
+- uid: Yunikodo.Char.KIRGKangXi
+  name: KIRGKangXi
+  href: api/Yunikodo.Char.html#Yunikodo_Char_KIRGKangXi
+  commentId: P:Yunikodo.Char.KIRGKangXi
+  fullName: Yunikodo.Char.KIRGKangXi
+  nameWithType: Char.KIRGKangXi
+- uid: Yunikodo.Char.KIRGKangXi*
+  name: KIRGKangXi
+  href: api/Yunikodo.Char.html#Yunikodo_Char_KIRGKangXi_
+  commentId: Overload:Yunikodo.Char.KIRGKangXi
+  isSpec: "True"
+  fullName: Yunikodo.Char.KIRGKangXi
+  nameWithType: Char.KIRGKangXi
 - uid: Yunikodo.Char.KIRGMSource
   name: KIRGMSource
   href: api/Yunikodo.Char.html#Yunikodo_Char_KIRGMSource
@@ -1092,6 +1092,19 @@ references:
   isSpec: "True"
   fullName: Yunikodo.Char.KTotalStrokes
   nameWithType: Char.KTotalStrokes
+- uid: Yunikodo.Char.LOE
+  name: LOE
+  href: api/Yunikodo.Char.html#Yunikodo_Char_LOE
+  commentId: P:Yunikodo.Char.LOE
+  fullName: Yunikodo.Char.LOE
+  nameWithType: Char.LOE
+- uid: Yunikodo.Char.LOE*
+  name: LOE
+  href: api/Yunikodo.Char.html#Yunikodo_Char_LOE_
+  commentId: Overload:Yunikodo.Char.LOE
+  isSpec: "True"
+  fullName: Yunikodo.Char.LOE
+  nameWithType: Char.LOE
 - uid: Yunikodo.Char.Lb
   name: Lb
   href: api/Yunikodo.Char.html#Yunikodo_Char_Lb
@@ -1118,19 +1131,6 @@ references:
   isSpec: "True"
   fullName: Yunikodo.Char.Lc
   nameWithType: Char.Lc
-- uid: Yunikodo.Char.LOE
-  name: LOE
-  href: api/Yunikodo.Char.html#Yunikodo_Char_LOE
-  commentId: P:Yunikodo.Char.LOE
-  fullName: Yunikodo.Char.LOE
-  nameWithType: Char.LOE
-- uid: Yunikodo.Char.LOE*
-  name: LOE
-  href: api/Yunikodo.Char.html#Yunikodo_Char_LOE_
-  commentId: Overload:Yunikodo.Char.LOE
-  isSpec: "True"
-  fullName: Yunikodo.Char.LOE
-  nameWithType: Char.LOE
 - uid: Yunikodo.Char.Lower
   name: Lower
   href: api/Yunikodo.Char.html#Yunikodo_Char_Lower
@@ -1157,45 +1157,6 @@ references:
   isSpec: "True"
   fullName: Yunikodo.Char.Math
   nameWithType: Char.Math
-- uid: Yunikodo.Char.Na
-  name: Na
-  href: api/Yunikodo.Char.html#Yunikodo_Char_Na
-  commentId: P:Yunikodo.Char.Na
-  fullName: Yunikodo.Char.Na
-  nameWithType: Char.Na
-- uid: Yunikodo.Char.Na*
-  name: Na
-  href: api/Yunikodo.Char.html#Yunikodo_Char_Na_
-  commentId: Overload:Yunikodo.Char.Na
-  isSpec: "True"
-  fullName: Yunikodo.Char.Na
-  nameWithType: Char.Na
-- uid: Yunikodo.Char.Na1
-  name: Na1
-  href: api/Yunikodo.Char.html#Yunikodo_Char_Na1
-  commentId: P:Yunikodo.Char.Na1
-  fullName: Yunikodo.Char.Na1
-  nameWithType: Char.Na1
-- uid: Yunikodo.Char.Na1*
-  name: Na1
-  href: api/Yunikodo.Char.html#Yunikodo_Char_Na1_
-  commentId: Overload:Yunikodo.Char.Na1
-  isSpec: "True"
-  fullName: Yunikodo.Char.Na1
-  nameWithType: Char.Na1
-- uid: Yunikodo.Char.Namealias
-  name: Namealias
-  href: api/Yunikodo.Char.html#Yunikodo_Char_Namealias
-  commentId: P:Yunikodo.Char.Namealias
-  fullName: Yunikodo.Char.Namealias
-  nameWithType: Char.Namealias
-- uid: Yunikodo.Char.Namealias*
-  name: Namealias
-  href: api/Yunikodo.Char.html#Yunikodo_Char_Namealias_
-  commentId: Overload:Yunikodo.Char.Namealias
-  isSpec: "True"
-  fullName: Yunikodo.Char.Namealias
-  nameWithType: Char.Namealias
 - uid: Yunikodo.Char.NChar
   name: NChar
   href: api/Yunikodo.Char.html#Yunikodo_Char_NChar
@@ -1274,6 +1235,45 @@ references:
   isSpec: "True"
   fullName: Yunikodo.Char.NFKDQC
   nameWithType: Char.NFKDQC
+- uid: Yunikodo.Char.Na
+  name: Na
+  href: api/Yunikodo.Char.html#Yunikodo_Char_Na
+  commentId: P:Yunikodo.Char.Na
+  fullName: Yunikodo.Char.Na
+  nameWithType: Char.Na
+- uid: Yunikodo.Char.Na*
+  name: Na
+  href: api/Yunikodo.Char.html#Yunikodo_Char_Na_
+  commentId: Overload:Yunikodo.Char.Na
+  isSpec: "True"
+  fullName: Yunikodo.Char.Na
+  nameWithType: Char.Na
+- uid: Yunikodo.Char.Na1
+  name: Na1
+  href: api/Yunikodo.Char.html#Yunikodo_Char_Na1
+  commentId: P:Yunikodo.Char.Na1
+  fullName: Yunikodo.Char.Na1
+  nameWithType: Char.Na1
+- uid: Yunikodo.Char.Na1*
+  name: Na1
+  href: api/Yunikodo.Char.html#Yunikodo_Char_Na1_
+  commentId: Overload:Yunikodo.Char.Na1
+  isSpec: "True"
+  fullName: Yunikodo.Char.Na1
+  nameWithType: Char.Na1
+- uid: Yunikodo.Char.Namealias
+  name: Namealias
+  href: api/Yunikodo.Char.html#Yunikodo_Char_Namealias
+  commentId: P:Yunikodo.Char.Namealias
+  fullName: Yunikodo.Char.Namealias
+  nameWithType: Char.Namealias
+- uid: Yunikodo.Char.Namealias*
+  name: Namealias
+  href: api/Yunikodo.Char.html#Yunikodo_Char_Namealias_
+  commentId: Overload:Yunikodo.Char.Namealias
+  isSpec: "True"
+  fullName: Yunikodo.Char.Namealias
+  nameWithType: Char.Namealias
 - uid: Yunikodo.Char.Nt
   name: Nt
   href: api/Yunikodo.Char.html#Yunikodo_Char_Nt
@@ -1404,6 +1404,19 @@ references:
   isSpec: "True"
   fullName: Yunikodo.Char.OUpper
   nameWithType: Char.OUpper
+- uid: Yunikodo.Char.PCM
+  name: PCM
+  href: api/Yunikodo.Char.html#Yunikodo_Char_PCM
+  commentId: P:Yunikodo.Char.PCM
+  fullName: Yunikodo.Char.PCM
+  nameWithType: Char.PCM
+- uid: Yunikodo.Char.PCM*
+  name: PCM
+  href: api/Yunikodo.Char.html#Yunikodo_Char_PCM_
+  commentId: Overload:Yunikodo.Char.PCM
+  isSpec: "True"
+  fullName: Yunikodo.Char.PCM
+  nameWithType: Char.PCM
 - uid: Yunikodo.Char.PatSyn
   name: PatSyn
   href: api/Yunikodo.Char.html#Yunikodo_Char_PatSyn
@@ -1430,19 +1443,6 @@ references:
   isSpec: "True"
   fullName: Yunikodo.Char.PatWS
   nameWithType: Char.PatWS
-- uid: Yunikodo.Char.PCM
-  name: PCM
-  href: api/Yunikodo.Char.html#Yunikodo_Char_PCM
-  commentId: P:Yunikodo.Char.PCM
-  fullName: Yunikodo.Char.PCM
-  nameWithType: Char.PCM
-- uid: Yunikodo.Char.PCM*
-  name: PCM
-  href: api/Yunikodo.Char.html#Yunikodo_Char_PCM_
-  commentId: Overload:Yunikodo.Char.PCM
-  isSpec: "True"
-  fullName: Yunikodo.Char.PCM
-  nameWithType: Char.PCM
 - uid: Yunikodo.Char.QMark
   name: QMark
   href: api/Yunikodo.Char.html#Yunikodo_Char_QMark
@@ -1456,19 +1456,6 @@ references:
   isSpec: "True"
   fullName: Yunikodo.Char.QMark
   nameWithType: Char.QMark
-- uid: Yunikodo.Char.Radical
-  name: Radical
-  href: api/Yunikodo.Char.html#Yunikodo_Char_Radical
-  commentId: P:Yunikodo.Char.Radical
-  fullName: Yunikodo.Char.Radical
-  nameWithType: Char.Radical
-- uid: Yunikodo.Char.Radical*
-  name: Radical
-  href: api/Yunikodo.Char.html#Yunikodo_Char_Radical_
-  commentId: Overload:Yunikodo.Char.Radical
-  isSpec: "True"
-  fullName: Yunikodo.Char.Radical
-  nameWithType: Char.Radical
 - uid: Yunikodo.Char.RI
   name: RI
   href: api/Yunikodo.Char.html#Yunikodo_Char_RI
@@ -1482,6 +1469,19 @@ references:
   isSpec: "True"
   fullName: Yunikodo.Char.RI
   nameWithType: Char.RI
+- uid: Yunikodo.Char.Radical
+  name: Radical
+  href: api/Yunikodo.Char.html#Yunikodo_Char_Radical
+  commentId: P:Yunikodo.Char.Radical
+  fullName: Yunikodo.Char.Radical
+  nameWithType: Char.Radical
+- uid: Yunikodo.Char.Radical*
+  name: Radical
+  href: api/Yunikodo.Char.html#Yunikodo_Char_Radical_
+  commentId: Overload:Yunikodo.Char.Radical
+  isSpec: "True"
+  fullName: Yunikodo.Char.Radical
+  nameWithType: Char.Radical
 - uid: Yunikodo.Char.SB
   name: SB
   href: api/Yunikodo.Char.html#Yunikodo_Char_SB
@@ -1495,6 +1495,32 @@ references:
   isSpec: "True"
   fullName: Yunikodo.Char.SB
   nameWithType: Char.SB
+- uid: Yunikodo.Char.SD
+  name: SD
+  href: api/Yunikodo.Char.html#Yunikodo_Char_SD
+  commentId: P:Yunikodo.Char.SD
+  fullName: Yunikodo.Char.SD
+  nameWithType: Char.SD
+- uid: Yunikodo.Char.SD*
+  name: SD
+  href: api/Yunikodo.Char.html#Yunikodo_Char_SD_
+  commentId: Overload:Yunikodo.Char.SD
+  isSpec: "True"
+  fullName: Yunikodo.Char.SD
+  nameWithType: Char.SD
+- uid: Yunikodo.Char.STerm
+  name: STerm
+  href: api/Yunikodo.Char.html#Yunikodo_Char_STerm
+  commentId: P:Yunikodo.Char.STerm
+  fullName: Yunikodo.Char.STerm
+  nameWithType: Char.STerm
+- uid: Yunikodo.Char.STerm*
+  name: STerm
+  href: api/Yunikodo.Char.html#Yunikodo_Char_STerm_
+  commentId: Overload:Yunikodo.Char.STerm
+  isSpec: "True"
+  fullName: Yunikodo.Char.STerm
+  nameWithType: Char.STerm
 - uid: Yunikodo.Char.Sc
   name: Sc
   href: api/Yunikodo.Char.html#Yunikodo_Char_Sc
@@ -1534,19 +1560,6 @@ references:
   isSpec: "True"
   fullName: Yunikodo.Char.Scx
   nameWithType: Char.Scx
-- uid: Yunikodo.Char.SD
-  name: SD
-  href: api/Yunikodo.Char.html#Yunikodo_Char_SD
-  commentId: P:Yunikodo.Char.SD
-  fullName: Yunikodo.Char.SD
-  nameWithType: Char.SD
-- uid: Yunikodo.Char.SD*
-  name: SD
-  href: api/Yunikodo.Char.html#Yunikodo_Char_SD_
-  commentId: Overload:Yunikodo.Char.SD
-  isSpec: "True"
-  fullName: Yunikodo.Char.SD
-  nameWithType: Char.SD
 - uid: Yunikodo.Char.Slc
   name: Slc
   href: api/Yunikodo.Char.html#Yunikodo_Char_Slc
@@ -1573,19 +1586,6 @@ references:
   isSpec: "True"
   fullName: Yunikodo.Char.Stc
   nameWithType: Char.Stc
-- uid: Yunikodo.Char.STerm
-  name: STerm
-  href: api/Yunikodo.Char.html#Yunikodo_Char_STerm
-  commentId: P:Yunikodo.Char.STerm
-  fullName: Yunikodo.Char.STerm
-  nameWithType: Char.STerm
-- uid: Yunikodo.Char.STerm*
-  name: STerm
-  href: api/Yunikodo.Char.html#Yunikodo_Char_STerm_
-  commentId: Overload:Yunikodo.Char.STerm
-  isSpec: "True"
-  fullName: Yunikodo.Char.STerm
-  nameWithType: Char.STerm
 - uid: Yunikodo.Char.Suc
   name: Suc
   href: api/Yunikodo.Char.html#Yunikodo_Char_Suc
@@ -1625,19 +1625,6 @@ references:
   isSpec: "True"
   fullName: Yunikodo.Char.Term
   nameWithType: Char.Term
-- uid: Yunikodo.Char.Uc
-  name: Uc
-  href: api/Yunikodo.Char.html#Yunikodo_Char_Uc
-  commentId: P:Yunikodo.Char.Uc
-  fullName: Yunikodo.Char.Uc
-  nameWithType: Char.Uc
-- uid: Yunikodo.Char.Uc*
-  name: Uc
-  href: api/Yunikodo.Char.html#Yunikodo_Char_Uc_
-  commentId: Overload:Yunikodo.Char.Uc
-  isSpec: "True"
-  fullName: Yunikodo.Char.Uc
-  nameWithType: Char.Uc
 - uid: Yunikodo.Char.UIdeo
   name: UIdeo
   href: api/Yunikodo.Char.html#Yunikodo_Char_UIdeo
@@ -1651,6 +1638,19 @@ references:
   isSpec: "True"
   fullName: Yunikodo.Char.UIdeo
   nameWithType: Char.UIdeo
+- uid: Yunikodo.Char.Uc
+  name: Uc
+  href: api/Yunikodo.Char.html#Yunikodo_Char_Uc
+  commentId: P:Yunikodo.Char.Uc
+  fullName: Yunikodo.Char.Uc
+  nameWithType: Char.Uc
+- uid: Yunikodo.Char.Uc*
+  name: Uc
+  href: api/Yunikodo.Char.html#Yunikodo_Char_Uc_
+  commentId: Overload:Yunikodo.Char.Uc
+  isSpec: "True"
+  fullName: Yunikodo.Char.Uc
+  nameWithType: Char.Uc
 - uid: Yunikodo.Char.Upper
   name: Upper
   href: api/Yunikodo.Char.html#Yunikodo_Char_Upper
@@ -1664,19 +1664,6 @@ references:
   isSpec: "True"
   fullName: Yunikodo.Char.Upper
   nameWithType: Char.Upper
-- uid: Yunikodo.Char.Vo
-  name: Vo
-  href: api/Yunikodo.Char.html#Yunikodo_Char_Vo
-  commentId: P:Yunikodo.Char.Vo
-  fullName: Yunikodo.Char.Vo
-  nameWithType: Char.Vo
-- uid: Yunikodo.Char.Vo*
-  name: Vo
-  href: api/Yunikodo.Char.html#Yunikodo_Char_Vo_
-  commentId: Overload:Yunikodo.Char.Vo
-  isSpec: "True"
-  fullName: Yunikodo.Char.Vo
-  nameWithType: Char.Vo
 - uid: Yunikodo.Char.VS
   name: VS
   href: api/Yunikodo.Char.html#Yunikodo_Char_VS
@@ -1690,6 +1677,19 @@ references:
   isSpec: "True"
   fullName: Yunikodo.Char.VS
   nameWithType: Char.VS
+- uid: Yunikodo.Char.Vo
+  name: Vo
+  href: api/Yunikodo.Char.html#Yunikodo_Char_Vo
+  commentId: P:Yunikodo.Char.Vo
+  fullName: Yunikodo.Char.Vo
+  nameWithType: Char.Vo
+- uid: Yunikodo.Char.Vo*
+  name: Vo
+  href: api/Yunikodo.Char.html#Yunikodo_Char_Vo_
+  commentId: Overload:Yunikodo.Char.Vo
+  isSpec: "True"
+  fullName: Yunikodo.Char.Vo
+  nameWithType: Char.Vo
 - uid: Yunikodo.Char.WB
   name: WB
   href: api/Yunikodo.Char.html#Yunikodo_Char_WB
@@ -1910,29 +1910,41 @@ references:
   fullName: Yunikodo.UnicodeQuery
   nameWithType: UnicodeQuery
 - uid: Yunikodo.UnicodeQuery.QueryChar(System.Char)
-  name: QueryChar(Char)
+  name: QueryChar(char)
   href: api/Yunikodo.UnicodeQuery.html#Yunikodo_UnicodeQuery_QueryChar_System_Char_
   commentId: M:Yunikodo.UnicodeQuery.QueryChar(System.Char)
-  fullName: Yunikodo.UnicodeQuery.QueryChar(System.Char)
-  nameWithType: UnicodeQuery.QueryChar(Char)
+  name.vb: QueryChar(Char)
+  fullName: Yunikodo.UnicodeQuery.QueryChar(char)
+  fullName.vb: Yunikodo.UnicodeQuery.QueryChar(Char)
+  nameWithType: UnicodeQuery.QueryChar(char)
+  nameWithType.vb: UnicodeQuery.QueryChar(Char)
 - uid: Yunikodo.UnicodeQuery.QueryChar(System.Char,Yunikodo.UnicodeQueryType)
-  name: QueryChar(Char, UnicodeQueryType)
+  name: QueryChar(char, UnicodeQueryType)
   href: api/Yunikodo.UnicodeQuery.html#Yunikodo_UnicodeQuery_QueryChar_System_Char_Yunikodo_UnicodeQueryType_
   commentId: M:Yunikodo.UnicodeQuery.QueryChar(System.Char,Yunikodo.UnicodeQueryType)
-  fullName: Yunikodo.UnicodeQuery.QueryChar(System.Char, Yunikodo.UnicodeQueryType)
-  nameWithType: UnicodeQuery.QueryChar(Char, UnicodeQueryType)
+  name.vb: QueryChar(Char, UnicodeQueryType)
+  fullName: Yunikodo.UnicodeQuery.QueryChar(char, Yunikodo.UnicodeQueryType)
+  fullName.vb: Yunikodo.UnicodeQuery.QueryChar(Char, Yunikodo.UnicodeQueryType)
+  nameWithType: UnicodeQuery.QueryChar(char, UnicodeQueryType)
+  nameWithType.vb: UnicodeQuery.QueryChar(Char, UnicodeQueryType)
 - uid: Yunikodo.UnicodeQuery.QueryChar(System.Int32)
-  name: QueryChar(Int32)
+  name: QueryChar(int)
   href: api/Yunikodo.UnicodeQuery.html#Yunikodo_UnicodeQuery_QueryChar_System_Int32_
   commentId: M:Yunikodo.UnicodeQuery.QueryChar(System.Int32)
-  fullName: Yunikodo.UnicodeQuery.QueryChar(System.Int32)
-  nameWithType: UnicodeQuery.QueryChar(Int32)
+  name.vb: QueryChar(Integer)
+  fullName: Yunikodo.UnicodeQuery.QueryChar(int)
+  fullName.vb: Yunikodo.UnicodeQuery.QueryChar(Integer)
+  nameWithType: UnicodeQuery.QueryChar(int)
+  nameWithType.vb: UnicodeQuery.QueryChar(Integer)
 - uid: Yunikodo.UnicodeQuery.QueryChar(System.Int32,Yunikodo.UnicodeQueryType)
-  name: QueryChar(Int32, UnicodeQueryType)
+  name: QueryChar(int, UnicodeQueryType)
   href: api/Yunikodo.UnicodeQuery.html#Yunikodo_UnicodeQuery_QueryChar_System_Int32_Yunikodo_UnicodeQueryType_
   commentId: M:Yunikodo.UnicodeQuery.QueryChar(System.Int32,Yunikodo.UnicodeQueryType)
-  fullName: Yunikodo.UnicodeQuery.QueryChar(System.Int32, Yunikodo.UnicodeQueryType)
-  nameWithType: UnicodeQuery.QueryChar(Int32, UnicodeQueryType)
+  name.vb: QueryChar(Integer, UnicodeQueryType)
+  fullName: Yunikodo.UnicodeQuery.QueryChar(int, Yunikodo.UnicodeQueryType)
+  fullName.vb: Yunikodo.UnicodeQuery.QueryChar(Integer, Yunikodo.UnicodeQueryType)
+  nameWithType: UnicodeQuery.QueryChar(int, UnicodeQueryType)
+  nameWithType.vb: UnicodeQuery.QueryChar(Integer, UnicodeQueryType)
 - uid: Yunikodo.UnicodeQuery.QueryChar*
   name: QueryChar
   href: api/Yunikodo.UnicodeQuery.html#Yunikodo_UnicodeQuery_QueryChar_
