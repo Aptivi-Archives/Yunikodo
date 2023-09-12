@@ -5,7 +5,7 @@
     <AssemblyTitle>Yunikodo</AssemblyTitle>
     <AssemblyDescription>Unicode info library for .NET</AssemblyDescription>
     <Description>Unicode info library for .NET</Description>
-    <Version>1.2.0</Version>
+    <Version>1.2.1</Version>
     <Authors>Aptivi</Authors>
     <DebugType>portable</DebugType>
     <AssemblyName>Yunikodo</AssemblyName>
@@ -23,9 +23,11 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageIcon>OfficialAppIcon-Yunikodo-512.png</PackageIcon>
-    <AssemblyVersion>1.2.0</AssemblyVersion>
-    <PackageVersion>1.2.0</PackageVersion>
+    <AssemblyVersion>1.2.1</AssemblyVersion>
+    <PackageVersion>1.2.1</PackageVersion>
     <LangVersion>latest</LangVersion>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\aptivi_snk.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>
